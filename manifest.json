@@ -1,0 +1,15 @@
+{
+    "name":"Raspberry Pi 4",
+    "type":"device",
+    "algorithm":[{"name":"HAAR Cascade"
+        ,"category":"Face Recognition"
+        ,"class":"Computer Vision"}
+    
+        ,{"name":"Deep Neural Net"
+            ,"category":"Face Recognition"
+            ,"class":"Computer Vision"}
+    ]
+    , "ram":"2gb"
+    , "cpu": "amd"
+
+}
