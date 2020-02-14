@@ -1,6 +1,6 @@
 {
     "FriendlyName":"Raspberry Pi 4",
-    "name":"RaspberryPi4",
+    "name":"Thinkstation",
     "algorithm":[{"name":"HAAR Cascade"
         ,"category":"Facial Recognition"
         ,"class":"Computer Vision"
