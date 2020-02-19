@@ -44,9 +44,9 @@ def gen(height,width, downsample, camera):
       curr_img = Image.open(BytesIO(r.content))
       
       frame = cv2.cvtColor(np.array(curr_img), cv2.COLOR_RGB2BGR)
-      dwidth = float(width) * (1 - float(downsample))
-      dheight = float(height) * (1 - float(downsample))
-      frame = imutils.resize(frame, width=int(dwidth), height=int(dheight))
+      #dwidth = float(width) * (1 - float(downsample))
+      #dheight = float(height) * (1 - float(downsample))
+      #frame = imutils.resize(frame, width=int(dwidth), height=int(dheight))
 
       frame = face_detect(frame, net)
       
