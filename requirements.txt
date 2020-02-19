@@ -1,4 +1,6 @@
 opencv-contrib-python
+Flask
 Flask-APScheduler==1.11.0
 requests
 image
+imutils

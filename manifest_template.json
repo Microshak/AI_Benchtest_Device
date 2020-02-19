@@ -1,19 +1,22 @@
 {
     "FriendlyName":"Thinkstation",
     "name":"Thinkstation",
-    "algorithm":[{"name":"HAAR Cascade"
-        ,"category":"facialrecognition"
+    "algorithm":
+    [
+        {"name":"HAAR Cascade"
+        ,"category":"Facial Recognition"
         ,"class":"Computer Vision"
     , "path":"haar/image.jpg"}
     
         ,{"name":"Deep Neural Net"
-            ,"category":"facialrecognition"
+            ,"category":"Facial Recognition"
             ,"class":"Computer Vision"
             ,"path":"opencvfacednn/image.jpg"}
-            ,{"name":"Object Detection"
-                ,"category":"objectdetection"
+            ,{"name":"Yolo"
+                ,"category":"Object Detection"
                 ,"class":"Computer Vision"
                 ,"path":"yolo/image.jpg"}
+    
     ]
     , "ram":"2gb"
     , "cpu": "amd"
