@@ -1,6 +1,6 @@
 
 from os import environ
-from App import app
+from CPU import cpu
 
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', '0.0.0.0')
@@ -8,4 +8,4 @@ if __name__ == '__main__':
         PORT = int(environ.get('SERVER_PORT', '8000'))
     except ValueError:
         PORT = 5555
-    app.run(HOST, PORT)
+    cpu.run(HOST, PORT)
