@@ -8,5 +8,5 @@ print(__name__)
 
 
 
-from gpu.HAAR import haar
+from GPU.HAAR import haar
 gpu.register_blueprint(haar)
