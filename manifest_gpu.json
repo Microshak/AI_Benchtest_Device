@@ -1,6 +1,6 @@
 {
     "FriendlyName":"NVidia Jetson",
-    "name":"Jetson",
+    "name":"JetsonNano",
     "algorithm":[{"name":"Object Detection"
                     ,"category":"objectdetection"
                     ,"class":"Computer Vision"

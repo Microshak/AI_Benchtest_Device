@@ -12,7 +12,7 @@ scheduler = APScheduler()
 
 
 def set_manifest():
-    f = open("manifest.json", "r")
+    f = open("manifest_cpu.json", "r")
     manifest = f.read()
 
     data = json.loads(manifest)
